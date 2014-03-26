@@ -1,0 +1,141 @@
+/* $Id: tabs.css,v 1.2 2008/09/08 02:35:29 johnalbin Exp $ */
+
+/*
+ * Tabs CSS
+ *
+ * Adds styles for the primary and secondary tabs.
+ *
+ * Compare this with default CSS found in the system module's stylesheet (a copy
+ * of which is in drupal6-reference.css, line 510.)
+ *
+ */
+
+  div.tabs
+  {
+    margin: 0 0 10px 0;
+  }
+
+  ul.primary
+  {
+    margin: 0;
+    padding: 0 15px 0 15px;
+    list-style: none;
+    white-space: nowrap;
+    line-height: normal;
+    border: solid #dadcdb;
+    border-width: 0 0 1px 0;    
+        z-index: 1;
+        position: relative;
+  }
+
+  ul.primary li
+  {
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.primary li a
+  {
+    display: inline-block;
+    height: 23px;
+    margin: 0;
+		padding: 0 5px 0 5px;
+    border-width: 0;
+    text-decoration: none;
+    font-size: 12px;
+    color: #505153;
+    background-color: transparent;
+    
+  }
+
+  ul.primary li a .tab
+  {
+    display: inline-block;
+    height: 20px; /* 24px (parent) - 4px (padding) */
+    margin: 0 0 -1px 0;
+    padding: 2px 8px 0 8px;
+    border: solid #dadcdb;
+    border-width: 1px; 
+    line-height: 20px;
+    background-color: white;
+    z-index: 2;
+        position: relative;
+
+  }
+
+  ul.primary li a:hover
+  {
+    border-width: 0;
+    background-color: transparent;
+    text-decoration: none;
+
+  }
+
+  ul.primary li.active a,
+  ul.primary li.active a:hover
+  {
+    border-width: 0;
+    background-color: transparent;
+
+  }
+
+	ul.primary li a:hover .tab,
+  ul.primary li.active a .tab,
+  ul.primary li.active a:hover .tab
+  {
+    border-left-color: #dadcdb;
+    border-bottom-color: #fcffff;
+    border-right-color: #dadcdb;
+    border-top-color: #dadcdb;
+    border-style: solid;
+    border-width: 1px; 
+  }
+
+  ul.secondary
+  {
+    margin: 0;
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid #dadcdb;
+    list-style: none;
+    white-space: nowrap;
+  }
+
+  ul.secondary li
+  {
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 5px 0;
+    border-right: none;
+  }
+
+  ul.secondary a
+  {
+    display: block;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #dadcdb;
+    text-decoration: none;
+    color: #777;
+  }
+
+  ul.secondary a .tab
+  {
+    display: block;
+    height: 18px; /* 24px (parent) - 6px (padding) */
+    margin: 0;
+    padding: 3px 8px;
+    line-height: 18px;
+  }
+
+  ul.secondary a:hover
+  {
+  }
+
+  ul.secondary a.active,
+  ul.secondary a.active:hover
+  {
+    border: 1px solid #dadcdb;
+    color: #000;
+  }

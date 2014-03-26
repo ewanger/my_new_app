@@ -1,0 +1,43 @@
+
+.front .news.block.block .content { height: 100px; } */
+
+
+
+
+/* ie6 only, left space footer issue */
+#copyright {
+-margin: 20px 0 12px 6px;
+}
+
+#sidebar-left {	overflow: hidden; }
+
+.front #content-bottom .block-block.even {
+
+}
+
+#block-views-general_news_teaser-block_1, #block-block-10 {
+ margin-left: 11px;
+}
+
+.front #content-bottom .block-block {
+-margin-right: 0;
+}
+
+
+
+#content-left {overflow: hidden; }
+
+
+
+.no-sidebars #content {
+float: left;
+width: 523px;
+margin-left: 78px;
+}
+
+
+
+
+.front #content-bottom .link-arrow,
+.front #sidebar-right .link-arrow
+{ margin: 0 0 0 0; }    

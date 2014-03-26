@@ -1,0 +1,23 @@
+/* block alignment */
+
+
+/*
+
+#header, #content, #navbar, #sidebar-left, #sidebar-right, #footer, #closure-blocks {	*overflow: hidden; }
+*/
+
+
+
+
+.no-sidebars #content {
+
+float: left;
+width: 526px;
+margin-left: 153px;
+
+}
+
+
+.front #content-bottom .link-arrow,
+.front #sidebar-right .link-arrow
+{ margin: 0 0 0 0; }    
