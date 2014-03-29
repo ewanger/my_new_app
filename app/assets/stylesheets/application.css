@@ -16,7 +16,7 @@
  */
 
 
-html, body { margin: 0px;
+html, body { margin: 0;
     font: verdana;
     font-size: 11px;
     line-height: 18px; }
@@ -30,19 +30,18 @@ body {
     font: verdana;
     font-size: 11px;
     line-height: 18px;
-    background: #ededef url(images/background-stripe.gif);
+);
+    background: #efefef;
 }
 
 #body, #side_body {
     float: left;
     width: 45%;
-    background: white;
     color: #333;
     padding: 20px;
 }
 
 nav ul {
-    background: #efefef;
     background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
     background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
     background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
@@ -60,7 +59,7 @@ nav ul:after {
 
 nav ul ul {
     display:none;
-    background: #5f6975; border-radius: 0px; padding: 0;
+    background: #5f6975; border-radius: 0; padding: 0;
     position: absolute; top: 100%;
 }
 
