@@ -7,8 +7,9 @@ Gem::Specification.new do |s|
   s.description       = 'Ruby on Rails Events extension for Refinery CMS'
   s.date              = '2014-03-19'
   s.summary           = 'Events extension for Refinery CMS'
+  s.authors           = ['Philip Arndt', 'Uģis Ozols', 'Rob Yurkowski']
   s.require_paths     = %w(lib)
-  s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
+  s.files             = Dir['{app,config,db,lib}/**/*'] + ['readme.md']
 
   # Runtime dependencies
   s.add_dependency             'refinerycms-core',    '~> 2.1.2'

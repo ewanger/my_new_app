@@ -17,7 +17,7 @@
 
 html, body {
     margin: 0;
-    font: verdana;
+    font-family: verdana,serif;
     font-size: 11px;
     line-height: 18px;
 }
@@ -77,8 +77,8 @@ nav ul:after {
 nav ul ul {
     display: none;
     /*background: #5f6975; */
-    background: #efefef
-    border-radius: 0;
+    background: #efefef;
+    border-radius: 0px;
     padding: 0;
     position: absolute;
     top: 100%;
@@ -130,24 +130,4 @@ nav ul ul ul {
     position: absolute;
     left: 100%;
     top: 0;
-}
-
-/*
-menu ul ul{
-    display:none;
-    list-style: none;
-    padding: 0px;}
-
-a ul li {
-    float: left;
-    margin-right: 10px;}
-a {
-    display: block;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #949952;}
-
-    a:hover { color: #949952;	text-decoration: underline; }
-    a:focus { outline: none; }
-
 }
