@@ -1,6 +1,5 @@
-<h1 id='logo'>
-  <img style="" src=<%=refinery.root_path%>
-  <%= link_to Refinery::Core.site_name, refinery.root_path %>
-
-</h1>
-<%= Refinery::Pages::MenuPresenter.new(refinery_menu_pages, self).to_html %>
+<div class="container">
+<div class="navbar">
+  <%= navigation_menu.to_html %>
+</div>
+</div>
